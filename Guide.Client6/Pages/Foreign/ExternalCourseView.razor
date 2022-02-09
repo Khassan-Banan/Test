@@ -1,0 +1,72 @@
+﻿@using Guide.Shared.Models
+@using Guide.Client6.Services
+<MudGrid Class="align-center" @key="CourseName">
+    <MudItem xs="6">
+        <MudText>@CourseName</MudText>
+    </MudItem>
+    <MudItem xs="6">
+        @{
+            switch (Certificate.EquivalenceMethod)
+            {
+                case EquivalenceMethod.LetterGrade:
+                    <MudSelect T="string" Variant="Variant.Outlined" Value="@GradeEquivalence.LetterGrade" ValueChanged="@((v)=> changeLetter(v))">
+                        @foreach (var grade in Certificate.GradeEquivalences.Select(g => g.LetterGrade))
+                        {
+                            <MudSelectItem @key="@(grade+ DateTime.Now.ToString())" Value="grade">@grade</MudSelectItem>
+                        }
+                    </MudSelect>
+                    break;
+                case EquivalenceMethod.Interpolation:
+                    <MudNumericField T=float Label=""
+                         Variant="Variant.Outlined" Min="@Certificate.GradeEquivalences.Min(g=> g.NumericalGrade.Value)" HideSpinButtons="true"
+                         Max="@Certificate.GradeEquivalences.Max(g=> g.NumericalGrade.Value)"
+                         ValueChanged="@((v)=>changeNumerical(v))"
+                         Value="@( GradeEquivalence.NumericalGrade.Value  )" />
+                    break;
+            }
+        }
+    </MudItem>
+</MudGrid>
+
+@code {
+    [Parameter]
+    public string CourseName { get; set; }
+    [Parameter]
+    public ExternalCertificate Certificate { get; set; }
+    [Parameter]
+    public EventCallback<StudentExternalCourse> GradeChanged { get; set; }
+    [Parameter]
+    public StudentExternalCourse StudentExternalCourse { get; set; }
+
+    public GradeEquivalence GradeEquivalence { get; set; }  // for ui
+    private void changeNumerical(float value)
+    {
+        StudentExternalCourse.LetterGrade = string.Empty;
+        StudentExternalCourse.NumericalGrade = value;
+        GradeEquivalence.NumericalGrade = value;
+        GradeChanged.InvokeAsync(StudentExternalCourse);
+    }
+    private void changeLetter(string letter)
+    {
+        StudentExternalCourse.LetterGrade = letter;
+        StudentExternalCourse.NumericalGrade = null;
+        GradeEquivalence.LetterGrade = letter;
+        GradeChanged.InvokeAsync(StudentExternalCourse);
+
+    }
+
+    protected override void OnInitialized()
+    {
+
+        GradeEquivalence = new();
+        Console.WriteLine(CourseName);
+        foreach (var item in Certificate.GradeEquivalences)
+        {
+            Console.WriteLine(item.LetterGrade);
+        }
+        GradeEquivalence.LetterGrade = "";
+        GradeEquivalence.NumericalGrade = 0;
+        base.OnInitialized();
+    }
+
+}

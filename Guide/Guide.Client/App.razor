@@ -1,0 +1,26 @@
+﻿@using Guide.Client.Services
+
+<Router AppAssembly="@typeof(Program).Assembly" PreferExactMatches="@true">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p>Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+
+@code {
+    [Inject]
+    public ProgramService ProgramService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+      
+        await ProgramService.LoadUniversities();
+   
+      
+        await base.OnInitializedAsync();
+    }
+}

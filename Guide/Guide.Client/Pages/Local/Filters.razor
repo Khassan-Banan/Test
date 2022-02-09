@@ -1,0 +1,44 @@
+﻿<MudGrid Spacing=0>
+    <MudItem Class="@Margin" xs="12">
+        <MudText Typo="Typo.h6">
+            الرجاء ادخال بياناتك
+        </MudText>
+    </MudItem>
+    <MudItem Class="@Margin" xs="12">
+        <MudNumericField T="double?" Min=0 Max=100 Step=0.2
+                         @bind-Value=Percentage
+                         HideSpinButtons="true"
+                         Error="@PercentageError"
+                         Label="النسبة المئوية" Variant="Variant.Outlined"></MudNumericField>
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+            المساق
+        </MudText>
+        <MudRadioGroup T=AcademicTrack @bind-SelectedOption="Track">
+            <MudRadio Option="@AcademicTrack.Scientific" Dense="true" Color="Color.Primary">@(AcademicTracks[AcademicTrack.Scientific])</MudRadio>
+            <MudRadio Option="@AcademicTrack.NonScientific" Dense="true" Color="Color.Primary">@(AcademicTracks[AcademicTrack.NonScientific])</MudRadio>
+        </MudRadioGroup>
+    </MudItem>
+
+
+    <MudItem Class="@Margin" Style="margin:auto;" xs="12">
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ShowResult">اظهار النتائج</MudButton>
+    </MudItem>
+
+</MudGrid>
+@* 
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+}
+            النوع
+        </MudText>
+        <MudRadioGroup T=Gender @bind-SelectedOption="Gender">
+            <MudRadio Option="@Gender.Male" Dense="true" Color="Color.Primary">@(Genders[Gender.Male])</MudRadio>
+            <MudRadio Option="@Gender.Female" Dense="true" Color="Color.Primary">@(Genders[Gender.Female])</MudRadio>
+        </MudRadioGroup>
+    </MudItem> 
+
+*@

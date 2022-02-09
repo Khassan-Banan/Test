@@ -1,0 +1,167 @@
+﻿
+<MudGrid Spacing=0>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+            النسبة المئوية
+        </MudText>
+        <MudNumericField T="double?" Min=0 Max=100 Step=0.2
+                         Value="@FilterService.Filters.Percentage"
+                         HideSpinButtons="true"
+                         ValueChanged="@(c => FilterService.ChangeFilters(f => f.Percentage = c))"
+                         Variant="Variant.Outlined"></MudNumericField>
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudDivider DividerType="DividerType.FullWidth" />
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+            المساق
+        </MudText>
+        <MudRadioGroup T=AcademicTrack SelectedOption="@FilterService.Filters.Track" SelectedOptionChanged=@( c=> FilterService.ChangeFilters( f=> f.Track = c) )>
+            <MudRadio Option="@AcademicTrack.All" Dense="true" Color="Color.Primary">@(AcademicTracks[AcademicTrack.All])</MudRadio>
+            <MudRadio Option="@AcademicTrack.Scientific" Dense="true" Color="Color.Primary">@(AcademicTracks[AcademicTrack.Scientific])</MudRadio>
+            <MudRadio Option="@AcademicTrack.NonScientific" Dense="true" Color="Color.Primary">@(AcademicTracks[AcademicTrack.NonScientific])</MudRadio>
+        </MudRadioGroup>
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudDivider DividerType="DividerType.FullWidth" />
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+            المجال
+        </MudText>
+        <MudSelect T="AcademicField" Strict="true"
+                   Value="@FilterService.Filters.AcademicField" ValueChanged=@(c => FilterService.ChangeFilters(f => f.AcademicField = c))
+                   Variant="Variant.Outlined" Format="F2" AnchorOrigin="Origin.BottomCenter">
+
+            <MudSelectItem T="AcademicField" Value="AcademicField.None">
+                @AcademicFields[AcademicField.None]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.Agriculture">
+                @AcademicFields[AcademicField.Agriculture]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.BasicSience">
+                @AcademicFields[AcademicField.BasicSience]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.Computer">
+                @AcademicFields[AcademicField.Computer]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.EconomicAndSocial">
+                @AcademicFields[AcademicField.EconomicAndSocial]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.Education">
+                @AcademicFields[AcademicField.Education]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.Engineering">
+                @AcademicFields[AcademicField.Engineering]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.Health">
+                @AcademicFields[AcademicField.Health]
+            </MudSelectItem>
+            <MudSelectItem T="AcademicField" Value="AcademicField.Human">
+                @AcademicFields[AcademicField.Human]
+            </MudSelectItem>
+
+        </MudSelect>
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudDivider DividerType="DividerType.FullWidth" />
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+            الولاية
+        </MudText>
+        <MudAutocomplete T="State" 
+                         SearchFunc="@SearchStates"
+                         Variant="Variant.Outlined"
+                         Value="@(FilterService.Filters.State)"
+                         ValueChanged=@((v) => FilterService.ChangeFilters(f => f.State = v))
+                         ResetValueOnEmptyText="true"
+                         ToStringFunc="@(t => States[t])"
+                         CoerceText="true" CoerceValue="true"/>
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudDivider DividerType="DividerType.FullWidth" />
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+            النوع
+        </MudText>
+        <MudRadioGroup T=Gender SelectedOption="@FilterService.Filters.Gender" SelectedOptionChanged=@( c=> FilterService.ChangeFilters( f=> f.Gender = c) )>
+            <MudRadio Option="@Gender.All" Dense="true" Color="Color.Primary">@(Genders[Gender.All])</MudRadio>
+            <MudRadio Option="@Gender.Male" Dense="true" Color="Color.Primary">@(Genders[Gender.Male])</MudRadio>
+            <MudRadio Option="@Gender.Female" Dense="true" Color="Color.Primary">@(Genders[Gender.Female])</MudRadio>
+        </MudRadioGroup>
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudDivider DividerType="DividerType.FullWidth" />
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudText>
+            القبول
+        </MudText>
+        <MudRadioGroup T=AdmissionType SelectedOption="@FilterService.Filters.AdmissionType" SelectedOptionChanged=@( c=> FilterService.ChangeFilters( f=> f.AdmissionType = c))>
+            <MudRadio Option="@AdmissionType.Public" Color="Color.Primary">@(AdmissionTypes[AdmissionType.Public])</MudRadio>
+            <MudRadio Option="@AdmissionType.Private" Color="Color.Primary">@(AdmissionTypes[AdmissionType.Private])</MudRadio>
+        </MudRadioGroup>
+    </MudItem>
+
+    <MudItem Class="@Margin" xs="12">
+        <MudDivider DividerType="DividerType.FullWidth" />
+    </MudItem>
+
+    @{
+        if (FilterService.Filters.AdmissionType != AdmissionType.Public)
+        {
+            <MudItem Class="@Margin" xs="12">
+                <MudText>
+                    الرسوم
+                </MudText>
+            </MudItem>
+
+            <MudItem Class="@Margin" xs="12">
+                <MudGrid>
+                    <MudItem xs="6">
+                        <MudNumericField Max=@FilterService.Filters.HighestPrice
+                                 T="decimal?"
+                                 Value="@FilterService.Filters.LowestPrice"
+                                 ValueChanged="@(v =>FilterService.ChangeFilters( f=> f.LowestPrice = v))"
+                                 Adornment="Adornment.Start"
+                                 HideSpinButtons="true"
+                                 Label="من" Variant="Variant.Outlined"></MudNumericField>
+
+                    </MudItem>
+                    <MudItem xs="6">
+                        <MudNumericField T="decimal?"
+                                 Value="FilterService.Filters.HighestPrice"
+                                 ValueChanged="@(v => FilterService.ChangeFilters( f=> f.HighestPrice = v))"
+                                 Min=@(FilterService.Filters.LowestPrice)
+                                 Adornment="Adornment.Start"
+                                 HideSpinButtons="true"
+                                 Label="إلى" Variant="Variant.Outlined"></MudNumericField>
+                    </MudItem>
+                </MudGrid>
+
+            </MudItem>
+
+            <MudItem Class=@Margin xs="12">
+                <MudRadioGroup T=Currency SelectedOption="@FilterService.Filters.Currency" SelectedOptionChanged=@( c=> FilterService.ChangeFilters( f=> f.Currency = c))>
+                    <MudRadio Option="@Currency.SDG" Color="Color.Primary">@(Currencies[Currency.SDG])</MudRadio>
+                    <MudRadio Option="@Currency.USD" Color="Color.Primary">@(Currencies[Currency.USD])</MudRadio>
+                </MudRadioGroup>
+            </MudItem>
+        }
+    }
+
+</MudGrid>

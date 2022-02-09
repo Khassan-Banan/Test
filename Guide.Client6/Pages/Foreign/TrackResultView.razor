@@ -1,0 +1,33 @@
+﻿    @if (!TrackResult.Score.HasValue)
+{
+    <MudGrid Class="px-12">
+        <MudItem xs="12" Style="@($"margin: auto;")">
+            <MudText Align="Align.Start" Typo="Typo.h6">
+                @AcademicTracks[AcademicTrack]
+            </MudText>
+        </MudItem>
+        <MudItem xs="12">
+            <MudText Align="Align.Start" Typo="Typo.body1" Color=Color.Error>
+                @TrackResult.Message
+            </MudText>
+        </MudItem>
+    </MudGrid>
+}
+else
+{
+    <MudGrid >
+        <MudItem xs="6" Style="@($"margin: auto;")">
+            <MudText Align="Align.Center" Typo="Typo.h6">
+                @AcademicTracks[AcademicTrack]
+            </MudText>
+        </MudItem>
+        <MudItem xs="6">
+            <MudButton Variant="Variant.Outlined" Size="Size.Large" OnClick="@(()=> GoToFilters(AcademicTrack, TrackResult.Score.Value))">
+                <MudText Align="Align.Center" Typo="Typo.h6">
+                    @TrackResult.Score
+                </MudText>
+            </MudButton>
+        </MudItem>
+    </MudGrid>
+}
+

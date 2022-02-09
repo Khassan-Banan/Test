@@ -1,0 +1,49 @@
+﻿@using Guide.Client.Services
+@using Guide.Shared.Models
+<!-- 112px = 64px for appbar + 24px for top margin + 24px for bottom margin -->
+<MudTable Items="@Programs" Height="calc(100vh - 112px)" Breakpoint="Breakpoint.Sm" Virtualize="true" FixedHeader="true" Striped="true">
+    <HeaderContent>
+        <MudTh Class="mud-theme-primary">الاسم</MudTh>
+        <MudTh Class="mud-theme-primary">الرمز</MudTh>
+        <MudTh Class="mud-theme-primary">النسبة</MudTh>
+        <MudTh Class="mud-theme-primary">الجامعة</MudTh>
+        <MudTh Class="mud-theme-primary">الكلية</MudTh>
+        <MudTh Class="mud-theme-primary">الولاية</MudTh>
+        @{
+            if (FiltersService.Filters.AdmissionType != AdmissionType.Public)
+                {
+
+            <MudTh Class="mud-theme-primary">الرسوم بالدولار</MudTh>
+            <MudTh Class="mud-theme-primary">الرسوم بالجنيه</MudTh>
+            }
+        }
+
+    </HeaderContent>
+    <RowTemplate >
+        <MudTd DataLabel="الاسم">@context.Name</MudTd>
+        <MudTd DataLabel="الرمز">@context.Code</MudTd>
+        <MudTd DataLabel="النسبة">@context.Percentage</MudTd>
+        <MudTd DataLabel="الجامعة">@context.University.Name</MudTd>
+        <MudTd DataLabel="الكلية">@context.Name</MudTd>
+        <MudTd DataLabel="الولاية">@(States[context.State])</MudTd>
+        @{
+            if (FiltersService.Filters.AdmissionType != AdmissionType.Public)
+                {
+
+            <MudTd DataLabel="الرسوم بالدولار">@context.PriceUSD</MudTd>
+            <MudTd DataLabel="الرسوم بالجنيه">@context.PriceSDG</MudTd>
+            }
+        }
+    </RowTemplate>
+</MudTable>
+    @code {
+    [Parameter]
+    public List<AcademicProgram> Programs { get; set; }
+    [Inject]
+    public FiltersService FiltersService { get; set; }
+    protected override void OnInitialized()
+    {
+        FiltersService.OnChange += StateHasChanged;
+        base.OnInitialized();
+    }
+}

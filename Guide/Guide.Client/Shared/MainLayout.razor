@@ -1,0 +1,28 @@
+﻿@inherits LayoutComponentBase
+
+
+<MudRTLProvider RightToLeft="true">
+<MudThemeProvider Theme="Theme"/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+@Body 
+</MudRTLProvider>
+
+@code{
+    MudTheme MyCustomTheme = new MudTheme()
+    {
+       
+        Palette = new Palette()
+        {
+            Primary = Colors.Purple.Darken3,
+            AppbarBackground = Colors.Purple.Darken3,
+            Background = Colors.Grey.Lighten4,
+         
+        },
+        LayoutProperties = new LayoutProperties()
+        {
+            DrawerWidthLeft = "300px",
+            DrawerWidthRight = "300px"
+        }
+    };
+}

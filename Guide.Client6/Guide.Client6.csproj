@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<BlazorEnableTimeZoneSupport>false</BlazorEnableTimeZoneSupport>
+	  <BlazorWebAssemblyPreserveCollationData>false</BlazorWebAssemblyPreserveCollationData>
+	  <InvariantGlobalization>true</InvariantGlobalization>
+	  <PublishTrimmed>false</PublishTrimmed>
+	  <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
+	  <SuppressTrimAnalysisWarnings>false</SuppressTrimAnalysisWarnings>
+	  <EnableUnsafeBinaryFormatterSerialization>false</EnableUnsafeBinaryFormatterSerialization>
+	  <EnableUnsafeUTF7Encoding>false</EnableUnsafeUTF7Encoding>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\data\daleel.json" />
+    <Content Remove="wwwroot\data\equivalencydata.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Shared\MainLayout.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Shared\MainLayout.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0-rc.2.21480.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0-rc.2.21480.10" PrivateAssets="all" />
+    <PackageReference Include="MudBlazor" Version="5.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\data\daleel.json" />
+    <None Include="wwwroot\data\equivalencydata.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Guide\Guide.Shared2\Guide.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

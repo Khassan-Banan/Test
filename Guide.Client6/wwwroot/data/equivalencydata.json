@@ -1,0 +1,3878 @@
+{
+  "ExternalCertificates": [
+    {
+      "Id": 1,
+      "Name": "الشهادة الأمريكية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 1600,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 800,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "الشهادة الثانوية الكمبودية ",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "A",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": "B",
+          "EquivalentScore": 80
+        },
+        {
+          "LetterGrade": "C",
+          "EquivalentScore": 70
+        },
+        {
+          "LetterGrade": "D",
+          "EquivalentScore": 60
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "البكالوريا الموريتانية - الاداب الاصلية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 8,
+          "EquivalentScore": 40
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "البكالوريا الموريتانية - الاداب العصرية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 8,
+          "EquivalentScore": 40
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "البكالوريا الموريتانية - العلوم الطبيعية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 8,
+          "EquivalentScore": 40
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "الشهادة الليبية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "البكالوريا المغربية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 8,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Name": "الشهادة السعودية المساق الادبي",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Name": "معهد العرفان الاسلامي - كينيا",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Name": "الشهادة الثانوية الاماراتية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Name": "الشهادة الثانوية سورينام",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "Name": "الشهادة الثانوية الجيبوتية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Name": "الشهادة الثانوية الكويتية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "Name": "الشهادة الدينية الكمبودية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 4,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 3,
+          "EquivalentScore": 75
+        },
+        {
+          "NumericalGrade": 2,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 1,
+          "EquivalentScore": 25
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Name": "الشهادة الثانوية الصينية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "A",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": "B",
+          "EquivalentScore": 80
+        },
+        {
+          "LetterGrade": "C",
+          "EquivalentScore": 70
+        },
+        {
+          "LetterGrade": "D",
+          "EquivalentScore": 60
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "Name": "الشهادة الثانوية مالي",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "Name": "الشهادة التشادية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "Name": "الشهادة الاثيوبية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 19,
+      "Name": "الشهادة الاندونيسية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "Name": "شهادة موزمبيق",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 21,
+      "Name": "الشهادة الثانوية الصينية المهنية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "D",
+          "EquivalentScore": 60
+        },
+        {
+          "LetterGrade": "C",
+          "EquivalentScore": 70
+        },
+        {
+          "LetterGrade": "A",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": " B",
+          "EquivalentScore": 80
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "Name": "الشهادة الثانوية العالمية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 23,
+      "Name": "الشهادة السعودية المساق العلمي",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "Name": "الشهادة النيجيرية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "C5",
+          "EquivalentScore": 65
+        },
+        {
+          "LetterGrade": "E8"
+        },
+        {
+          "LetterGrade": "D7"
+        },
+        {
+          "LetterGrade": "C4",
+          "EquivalentScore": 70
+        },
+        {
+          "LetterGrade": "B3",
+          "EquivalentScore": 75
+        },
+        {
+          "LetterGrade": "B2",
+          "EquivalentScore": 85
+        },
+        {
+          "LetterGrade": "A1",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": "F9"
+        },
+        {
+          "LetterGrade": "C6",
+          "EquivalentScore": 55
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "Name": "الشهادة الثانوية اليمنية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 26,
+      "Name": "الشهادة الصومالية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 27,
+      "Name": "الشهادة السودانية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 28,
+      "Name": "الشهادة الثانوية التركية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 29,
+      "Name": "الشهادة غامبيا (WAEC)",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "F9",
+          "EquivalentScore": 9
+        },
+        {
+          "LetterGrade": "E8",
+          "EquivalentScore": 8
+        },
+        {
+          "LetterGrade": "D7",
+          "EquivalentScore": 7
+        },
+        {
+          "LetterGrade": "C6",
+          "EquivalentScore": 6
+        },
+        {
+          "LetterGrade": "C5",
+          "EquivalentScore": 5
+        },
+        {
+          "LetterGrade": "C4",
+          "EquivalentScore": 4
+        },
+        {
+          "LetterGrade": "B3",
+          "EquivalentScore": 3
+        },
+        {
+          "LetterGrade": "B2",
+          "EquivalentScore": 2
+        },
+        {
+          "LetterGrade": "A1",
+          "EquivalentScore": 1
+        }
+      ]
+    },
+    {
+      "Id": 30,
+      "Name": "جزر القمر",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 8,
+          "EquivalentScore": 40
+        }
+      ]
+    },
+    {
+      "Id": 31,
+      "Name": "الشهادة السنغالية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "ممتاز",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": "مقبول",
+          "EquivalentScore": 50
+        },
+        {
+          "LetterGrade": "راسب",
+          "EquivalentScore": 49
+        },
+        {
+          "LetterGrade": "حسن",
+          "EquivalentScore": 60
+        },
+        {
+          "LetterGrade": "جيد جدا",
+          "EquivalentScore": 85
+        },
+        {
+          "LetterGrade": "50",
+          "EquivalentScore": 50
+        },
+        {
+          "LetterGrade": "100",
+          "EquivalentScore": 100
+        },
+        {
+          "LetterGrade": "0"
+        },
+        {
+          "LetterGrade": "جيد",
+          "EquivalentScore": 75
+        },
+        {
+          "LetterGrade": "94",
+          "EquivalentScore": 94
+        }
+      ]
+    },
+    {
+      "Id": 32,
+      "Name": "شهادة دولة قطر",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 33,
+      "Name": "شهادة التعليم الثانوي الإريترية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "D",
+          "EquivalentScore": 49
+        },
+        {
+          "LetterGrade": "F",
+          "EquivalentScore": 39
+        },
+        {
+          "LetterGrade": "A",
+          "EquivalentScore": 100
+        },
+        {
+          "LetterGrade": "B",
+          "EquivalentScore": 74
+        },
+        {
+          "LetterGrade": "C",
+          "EquivalentScore": 64
+        }
+      ]
+    },
+    {
+      "Id": 34,
+      "Name": "الشهادة البريطانية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "A*",
+          "EquivalentScore": 95
+        },
+        {
+          "LetterGrade": "A",
+          "EquivalentScore": 85
+        },
+        {
+          "LetterGrade": "B",
+          "EquivalentScore": 75
+        },
+        {
+          "LetterGrade": "C",
+          "EquivalentScore": 65
+        },
+        {
+          "LetterGrade": "D",
+          "EquivalentScore": 50
+        },
+        {
+          "LetterGrade": "E",
+          "EquivalentScore": 49
+        }
+      ]
+    },
+    {
+      "Id": 35,
+      "Name": "الشهادة الفنية التجارية - تشاد",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 36,
+      "Name": "شهادة غينيا بيساو",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 37,
+      "Name": "شهادة المعاهد الاسلامية غامبيا",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "ممتاز",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": "مقبول",
+          "EquivalentScore": 60
+        },
+        {
+          "LetterGrade": "راسب",
+          "EquivalentScore": 49
+        },
+        {
+          "LetterGrade": "حسن",
+          "EquivalentScore": 70
+        },
+        {
+          "LetterGrade": "جيد جدا",
+          "EquivalentScore": 85
+        },
+        {
+          "LetterGrade": "جيد",
+          "EquivalentScore": 77
+        }
+      ]
+    },
+    {
+      "Id": 38,
+      "Name": "شهادة دولة مدغشقر",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 39,
+      "Name": "شهادة دولة بنين",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 40,
+      "Name": "شهادة افريقيا الوسطى",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 41,
+      "Name": "الشهادة الايفوارية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 42,
+      "Name": "شهادة دولة توغو - SERIE G2",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 43,
+      "Name": "WAEC GHANA",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "F9",
+          "EquivalentScore": 9
+        },
+        {
+          "LetterGrade": "E8",
+          "EquivalentScore": 8
+        },
+        {
+          "LetterGrade": "D7",
+          "EquivalentScore": 7
+        },
+        {
+          "LetterGrade": "C6",
+          "EquivalentScore": 6
+        },
+        {
+          "LetterGrade": "C5",
+          "EquivalentScore": 5
+        },
+        {
+          "LetterGrade": "C4",
+          "EquivalentScore": 4
+        },
+        {
+          "LetterGrade": "B3",
+          "EquivalentScore": 3
+        },
+        {
+          "LetterGrade": "B2",
+          "EquivalentScore": 2
+        },
+        {
+          "LetterGrade": "ABSANT"
+        },
+        {
+          "LetterGrade": "A1",
+          "EquivalentScore": 1
+        }
+      ]
+    },
+    {
+      "Id": 44,
+      "Name": "شهادة دولة توغو SERIE A4",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 20,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 10,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 45,
+      "Name": "شهادة سلطنة عمان",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 46,
+      "Name": "شهادة الاردن",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 200,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 47,
+      "Name": "الشهادة الأفغانستانية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 0
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 48,
+      "Name": "الشهادة الثانوية اليوغندية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "9",
+          "EquivalentScore": 9
+        },
+        {
+          "LetterGrade": "8",
+          "EquivalentScore": 8
+        },
+        {
+          "LetterGrade": "7",
+          "EquivalentScore": 7
+        },
+        {
+          "LetterGrade": "6",
+          "EquivalentScore": 6
+        },
+        {
+          "LetterGrade": "4",
+          "EquivalentScore": 4
+        },
+        {
+          "LetterGrade": "3",
+          "EquivalentScore": 3
+        },
+        {
+          "LetterGrade": "2",
+          "EquivalentScore": 2
+        },
+        {
+          "LetterGrade": "1",
+          "EquivalentScore": 1
+        },
+        {
+          "LetterGrade": "5",
+          "EquivalentScore": 5
+        }
+      ]
+    },
+    {
+      "Id": 49,
+      "Name": "الشهادة الكينية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "A",
+          "EquivalentScore": 95
+        },
+        {
+          "LetterGrade": "A-",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": "B",
+          "EquivalentScore": 80
+        },
+        {
+          "LetterGrade": "B-",
+          "EquivalentScore": 75
+        },
+        {
+          "LetterGrade": "B\u002B",
+          "EquivalentScore": 85
+        },
+        {
+          "LetterGrade": "D\u002B",
+          "EquivalentScore": 55
+        },
+        {
+          "LetterGrade": "D-",
+          "EquivalentScore": 45
+        },
+        {
+          "LetterGrade": "D",
+          "EquivalentScore": 50
+        },
+        {
+          "LetterGrade": "C\u002B",
+          "EquivalentScore": 70
+        },
+        {
+          "LetterGrade": "C-",
+          "EquivalentScore": 60
+        },
+        {
+          "LetterGrade": "C",
+          "EquivalentScore": 65
+        },
+        {
+          "LetterGrade": "E"
+        }
+      ]
+    },
+    {
+      "Id": 50,
+      "Name": "الثانوية العامة بوروندي",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 51,
+      "Name": "الشهادة الثانوية التايلاندية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 4,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 2,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 52,
+      "Name": "الثانوية التايلاندية - التعليم الديني",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        }
+      ]
+    },
+    {
+      "Id": 53,
+      "Name": "الثانوية بوركينافاسو",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "جيد",
+          "EquivalentScore": 75
+        },
+        {
+          "LetterGrade": "ممتاز",
+          "EquivalentScore": 90
+        },
+        {
+          "LetterGrade": "مقبول",
+          "EquivalentScore": 60
+        },
+        {
+          "LetterGrade": "راسب",
+          "EquivalentScore": 49
+        },
+        {
+          "LetterGrade": "جيد جدا",
+          "EquivalentScore": 85
+        }
+      ]
+    },
+    {
+      "Id": 54,
+      "Name": "الشهادة الباكستانية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 55,
+      "Name": "الشهادة التنزانية",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": "E",
+          "EquivalentScore": 49
+        },
+        {
+          "LetterGrade": "D",
+          "EquivalentScore": 60
+        },
+        {
+          "LetterGrade": "C",
+          "EquivalentScore": 70
+        },
+        {
+          "LetterGrade": "B\u002B",
+          "EquivalentScore": 85
+        },
+        {
+          "LetterGrade": "B",
+          "EquivalentScore": 80
+        },
+        {
+          "LetterGrade": "A",
+          "EquivalentScore": 90
+        }
+      ]
+    },
+    {
+      "Id": 56,
+      "Name": "WAEC - Sierra Leone",
+      "EquivalenceMethod": 2,
+      "GradeEquivalences": [
+        {
+          "LetterGrade": " A1",
+          "EquivalentScore": 1
+        },
+        {
+          "LetterGrade": "B2",
+          "EquivalentScore": 2
+        },
+        {
+          "LetterGrade": "B3",
+          "EquivalentScore": 3
+        },
+        {
+          "LetterGrade": "C5",
+          "EquivalentScore": 5
+        },
+        {
+          "LetterGrade": "F9",
+          "EquivalentScore": 9
+        },
+        {
+          "LetterGrade": "E8",
+          "EquivalentScore": 8
+        },
+        {
+          "LetterGrade": "D7",
+          "EquivalentScore": 7
+        },
+        {
+          "LetterGrade": "C6",
+          "EquivalentScore": 6
+        },
+        {
+          "LetterGrade": "C4",
+          "EquivalentScore": 4
+        }
+      ]
+    },
+    {
+      "Id": 57,
+      "Name": "الشهادة الثانوية سيراليون",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 58,
+      "Name": "الشهادة المصرية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 80,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 30,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 59,
+      "Name": "التعليم الديني (جميع الدول)",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        }
+      ]
+    },
+    {
+      "Id": 60,
+      "Name": "الشهادة الصومالية الشرعية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 61,
+      "Name": "الشهادة الازهرية",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    },
+    {
+      "Id": 62,
+      "Name": "ثانوية جنوب السودان",
+      "EquivalenceMethod": 1,
+      "GradeEquivalences": [
+        {
+          "NumericalGrade": 100,
+          "EquivalentScore": 100
+        },
+        {
+          "NumericalGrade": 50,
+          "EquivalentScore": 50
+        },
+        {
+          "NumericalGrade": 0
+        }
+      ]
+    }
+  ],
+  "ExternalCourses": [
+    {
+      "Id": 1,
+      "Name": "محاسبة تكاليف",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 2,
+      "Name": "اللغة مدغشقر",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 3,
+      "Name": "فنون وتصميم",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 4,
+      "Name": "العلوم الاسرية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 5,
+      "Name": "عربي متقدم",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 6,
+      "Name": "دراسة حالة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 7,
+      "Name": "قانون",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 8,
+      "Name": "ادارة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 9,
+      "Name": "معارف عامة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 10,
+      "Name": "الأعمال والاقتصاد",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 11,
+      "Name": "علوم عامة",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 12,
+      "Name": "منطق",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 13,
+      "Name": "التكامل",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 14,
+      "Name": "sat1",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 15,
+      "Name": "sat2",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 16,
+      "Name": "محاسبة مالية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 17,
+      "Name": "العلوم المنزلية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 18,
+      "Name": "العلوم الصحية 1",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 19,
+      "Name": "العلوم الصحية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 20,
+      "Name": "رياضيات اضافية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 21,
+      "Name": "التعبير والانشاء",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 22,
+      "Name": "البلاغة والبيان",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 23,
+      "Name": "مهارات الترجمة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 24,
+      "Name": "اللغة العربية - القراءة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 25,
+      "Name": "اللغة البرتغالية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 26,
+      "Name": "الفلسفة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 27,
+      "Name": "اللغة الفرنسية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 28,
+      "Name": "تصميم",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 29,
+      "Name": "اللغة الاندونيسية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 30,
+      "Name": "الفنون والادب",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 31,
+      "Name": "التربية الوطنية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 32,
+      "Name": "اللغة الامهرية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 33,
+      "Name": "اللغة الاوروموية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 34,
+      "Name": "علوم التربية المدنية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 35,
+      "Name": "جغرافيا وتاريخ",
+      "CourseType": 2,
+      "Cardinality": 2
+    },
+    {
+      "Id": 36,
+      "Name": "اللغة الصينية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 37,
+      "Name": "اختبار القدرات",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 38,
+      "Name": "الاختبار التحصيلي",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 39,
+      "Name": "المعدل التراكمي",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 40,
+      "Name": "التربية الأسلامية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 41,
+      "Name": "اللغة العربية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 42,
+      "Name": "لغة انجليزية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 43,
+      "Name": "فيزياء",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 44,
+      "Name": "كيمياء",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 45,
+      "Name": "احياء",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 46,
+      "Name": "علوم هندسية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 47,
+      "Name": "كيمياء وفيزياء",
+      "CourseType": 1,
+      "Cardinality": 2
+    },
+    {
+      "Id": 48,
+      "Name": "علوم حاسوب",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 49,
+      "Name": "جغرافيا",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 50,
+      "Name": "دراسات اسلامية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 51,
+      "Name": "دراسات عسكرية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 52,
+      "Name": "دراسات بيئية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 53,
+      "Name": "دراسات تجارية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 54,
+      "Name": "اللغة الصومالية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 55,
+      "Name": "القران الكريم",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 56,
+      "Name": "تاريخ",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 57,
+      "Name": "علوم",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 58,
+      "Name": "الأيديولوجيا والسياسة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 59,
+      "Name": "ادارة الاعمال",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 60,
+      "Name": "الصرف",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 61,
+      "Name": "التوحيد",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 62,
+      "Name": "الادب والنصوص",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 63,
+      "Name": "البلاغة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 64,
+      "Name": "التربية البدنية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 65,
+      "Name": "السلوك",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 66,
+      "Name": "التشريع الاسلامي",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 67,
+      "Name": "الفكر الإسلامي",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 68,
+      "Name": "القرآن والحديث",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 69,
+      "Name": "ادب كمبودي",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 70,
+      "Name": "المدنية الاخلاقية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 71,
+      "Name": "دراسة الارض",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 72,
+      "Name": "الزراعة",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 73,
+      "Name": "دراسات دينية",
+      "CourseType": 3,
+      "Cardinality": 1
+    },
+    {
+      "Id": 74,
+      "Name": "العلوم الانسانية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 75,
+      "Name": "النحو",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 76,
+      "Name": "الحديث وعلومه",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 77,
+      "Name": "اصول الفقه",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 78,
+      "Name": "الفقه",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 79,
+      "Name": "تقنية التبريد",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 80,
+      "Name": "هندسة سيارات",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 81,
+      "Name": "الهندسة الكهربائية للهندسة الميكانيكية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 82,
+      "Name": "الهيكل الصلب",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 83,
+      "Name": "علم الخصائص الميكانيكية والهيدروليكية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 84,
+      "Name": "قطع غيار الالات",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 85,
+      "Name": "تجهيزات النقل",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 86,
+      "Name": "تقنية معلومات",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 87,
+      "Name": "الرسم",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 88,
+      "Name": "الدراسات الاجتماعية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 89,
+      "Name": "اللغة الهوساوية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 90,
+      "Name": "حكومة",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 91,
+      "Name": "اقتصاد",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 92,
+      "Name": "اللغة السواحلية",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 93,
+      "Name": "علوم القرآن",
+      "CourseType": 2,
+      "Cardinality": 1
+    },
+    {
+      "Id": 94,
+      "Name": "العلوم الطبيعية",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 95,
+      "Name": "ممارسة المواد والقياسات",
+      "CourseType": 1,
+      "Cardinality": 1
+    },
+    {
+      "Id": 96,
+      "Name": "الرياضيات",
+      "CourseType": 3,
+      "Cardinality": 1
+    }
+  ],
+  "ExternalCertificateCourses": [
+    {
+      "ExternalCertificateId": 1,
+      "ExternalCourseId": 14
+    },
+    {
+      "ExternalCertificateId": 1,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 1,
+      "ExternalCourseId": 15
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 71
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 70
+    },
+    {
+      "ExternalCertificateId": 2,
+      "ExternalCourseId": 69
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 68
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 67
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 66
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 64
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 3,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 64
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 4,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 64
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 94
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 5,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 6,
+      "ExternalCourseId": 86
+    },
+    {
+      "ExternalCertificateId": 6,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 6,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 6,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 6,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 6,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 6,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 50
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 7,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 8,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 8,
+      "ExternalCourseId": 37
+    },
+    {
+      "ExternalCertificateId": 8,
+      "ExternalCourseId": 38
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 92
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 55
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 9,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 88
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 10,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 87
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 85
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 83
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 82
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 81
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 84
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 59
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 80
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 79
+    },
+    {
+      "ExternalCertificateId": 11,
+      "ExternalCourseId": 95
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 55
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 12,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 13,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 14,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 86
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 58
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 36
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 15,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 65
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 64
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 63
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 62
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 60
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 75
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 76
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 77
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 94
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 93
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 55
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 16,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 50
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 17,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 34
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 33
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 32
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 18,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 31
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 30
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 29
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 19,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 25
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 20,
+      "ExternalCourseId": 28
+    },
+    {
+      "ExternalCertificateId": 21,
+      "ExternalCourseId": 24
+    },
+    {
+      "ExternalCertificateId": 21,
+      "ExternalCourseId": 23
+    },
+    {
+      "ExternalCertificateId": 21,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 21,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 21,
+      "ExternalCourseId": 36
+    },
+    {
+      "ExternalCertificateId": 21,
+      "ExternalCourseId": 21
+    },
+    {
+      "ExternalCertificateId": 21,
+      "ExternalCourseId": 22
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 50
+    },
+    {
+      "ExternalCertificateId": 22,
+      "ExternalCourseId": 52
+    },
+    {
+      "ExternalCertificateId": 23,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 23,
+      "ExternalCourseId": 38
+    },
+    {
+      "ExternalCertificateId": 23,
+      "ExternalCourseId": 37
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 90
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 34
+    },
+    {
+      "ExternalCertificateId": 24,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 55
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 25,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 13
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 12
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 54
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 46
+    },
+    {
+      "ExternalCertificateId": 26,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 51
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 52
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 53
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 50
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 4
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 46
+    },
+    {
+      "ExternalCertificateId": 27,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 28,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 90
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 50
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 29,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 30,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 31,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 32,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 11
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 9
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 10
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 72
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 33,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 86
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 52
+    },
+    {
+      "ExternalCertificateId": 34,
+      "ExternalCourseId": 20
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 8
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 7
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 6
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 35,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 36,
+      "ExternalCourseId": 25
+    },
+    {
+      "ExternalCertificateId": 37,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 2
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 94
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 38,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 39,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 40,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 40,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 40,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 40,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 40,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 40,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 40,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 41,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 41,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 41,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 41,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 41,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 41,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 41,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 86
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 42,
+      "ExternalCourseId": 64
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 57
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 20
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 88
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 43,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 47
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 35
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 44,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 88
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 45,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 46,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 47,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 53
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 48,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 17
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 73
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 72
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 92
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 53
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 49,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 74
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 34
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 50,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 51,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 52,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 53,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 54,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 54,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 54,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 54,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 54,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 54,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 54,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 34
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 48
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 55,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 20
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 72
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 50
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 57
+    },
+    {
+      "ExternalCertificateId": 56,
+      "ExternalCourseId": 19
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 1
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 16
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 91
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 53
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 50
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 57,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 27
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 26
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 40
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 58,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 59,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 60,
+      "ExternalCourseId": 39
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 55
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 73
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 61,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 96
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 42
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 41
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 43
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 44
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 45
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 46
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 3
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 56
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 73
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 49
+    },
+    {
+      "ExternalCertificateId": 62,
+      "ExternalCourseId": 51
+    }
+  ]
+}

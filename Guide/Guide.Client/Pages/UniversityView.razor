@@ -1,0 +1,19 @@
+﻿@using Guide.Shared.Models
+
+<MudTreeViewItem T="University" Value="@(University)" Text="">
+    @foreach( var program in programs)
+    {   
+            <MudTreeViewItem T="AcademicProgram" Value="@(program)" Text="@program.Name"/>
+    }
+</MudTreeViewItem>
+
+@code {
+    [Parameter]
+    public University University { get; set; }
+    public List<AcademicProgram> programs;
+    protected override void OnInitialized()
+    {
+        programs = University.Programs.ToList();
+        base.OnInitialized();
+    }
+}

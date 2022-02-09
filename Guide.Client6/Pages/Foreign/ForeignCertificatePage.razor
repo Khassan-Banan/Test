@@ -1,0 +1,25 @@
+﻿@page "/foreign"
+@implements IDisposable
+@using Guide.Client6.Services;
+<ResultsLayout>
+    <Top>
+        <TopBar LeftDrawerTitle="المعايرة" LeftDrawerIcon="@Icons.Material.Outlined.SwapHorizontalCircle" >
+            <LeftDrawerBody>
+                <CalibrationSection />
+            </LeftDrawerBody>
+        </TopBar>
+    </Top>
+   
+
+</ResultsLayout>
+
+@code {
+     [Inject]
+    private TopBarService TopBarService { get; set; }
+    public void Dispose()
+    {
+        TopBarService.OpenLeft = false;
+        TopBarService.UnLockRight();
+        TopBarService.OpenRight = true;
+    }
+}

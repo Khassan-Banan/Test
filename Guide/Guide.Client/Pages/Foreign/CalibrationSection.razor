@@ -1,0 +1,103 @@
+﻿@using Guide.Client.Services
+@using Guide.Shared.Models
+
+@if (!Loading)
+{
+
+    <MudGrid Spacing=0 Class="justify-center">
+
+        <MudItem xs="12" Class="@Margin">
+            <MudSelect T="ExternalCertificate" Label="الشهادة" Variant="Variant.Outlined" OffsetY="true" Dense="true"
+                   Value=@ExternalCertificate
+                   ValueChanged="@CertificateChanged">
+                @foreach (var certificate in EquivalencyService.Get().ExternalCertificates.Where(c => c.Id != SudaneseCertificateId))
+                {
+                    <MudSelectItem Value="@certificate">
+                        @certificate.Name
+                    </MudSelectItem>
+                }
+            </MudSelect>
+        </MudItem>
+
+        @if (Result == null)
+        {
+
+            <MudItem xs="12" Class="@Margin">
+                <MudContainer>
+                    @foreach (var course in ExternalCertificate.ExternalCertificateCourses.Select(c => c.ExternalCourse)
+                   )
+                    {
+
+                        <ExternalCourseView @key="@course.Id"
+                                CourseName="@(course.Name)"
+                                StudentExternalCourse="@StudentExternalCourses.First(c=> c.ExternalCourseId == course.Id)"
+                                EquivalenceMethod="@(ExternalCertificate.EquivalenceMethod)"
+                                GradeEquivalences="@(ExternalCertificate.GradeEquivalences.ToList())" />
+                    }
+
+                </MudContainer>
+            </MudItem>
+        }
+        <MudItem Class="mx-4 my-6">
+
+            <MudButton OnClick="@Calculate" Variant="Variant.Filled" Color="@Color.Primary" DisableElevation>
+                @( Result != null ? "رجوع" : "معادلة")
+            </MudButton>
+        </MudItem>
+        @if (Result != null)
+        {
+            <MudPaper Class="pa-16 ma-2">
+
+                <MudItem xs="12" Class="mx-4 my-6">
+                    <MudGrid>
+                        <MudItem xs="6" Style="@($"margin: auto;")">
+
+                            <MudText Align="Align.Center" Typo="Typo.h6">
+
+                                @AcademicTracks[AcademicTrack.Scientific]
+                            </MudText>
+                        </MudItem>
+                        <MudItem xs="6">
+                    
+                            <MudButton lass="score" Variant="Variant.Outlined" Size="Size.Large" OnClick="@(()=> GoToFilters(AcademicTrack.Scientific, Result.TrackResults[AcademicTrack.Scientific].Score.Value))">
+                                <MudText Align="Align.Center" Typo="Typo.h6">
+                                    @Result.TrackResults[AcademicTrack.Scientific].Score
+                                </MudText>
+                            </MudButton>
+
+                        </MudItem>
+                    </MudGrid>
+                </MudItem>
+                <MudItem xs="12" Class="mx-4 my-6">
+                    <MudGrid>
+                        <MudItem xs="6" Style="@($"margin: auto;")">
+                            <MudText Align="Align.Center" Typo="Typo.h6">
+
+                                @AcademicTracks[AcademicTrack.NonScientific]
+                            </MudText>
+                        </MudItem>
+                        <MudItem xs="6" Style="@($"margin: auto;")">
+                       
+                            <MudButton Class="score" Size="Size.Large"  Variant="Variant.Outlined"  OnClick="@(()=> GoToFilters(AcademicTrack.NonScientific, Result.TrackResults[AcademicTrack.NonScientific].Score.Value))">
+                                <MudText Align="Align.Center" Typo="Typo.h6">
+                                    @Result.TrackResults[AcademicTrack.NonScientific].Score
+                                </MudText>
+                            </MudButton>
+                        </MudItem>
+                    </MudGrid>
+                </MudItem>
+            </MudPaper>
+        }
+
+
+    </MudGrid>
+
+
+
+}else{
+    <MudGrid>
+        <MudItem Style="margin:auto">
+            <MudProgressCircular Class="mx" Color="Color.Primary" Indeterminate="true"/> 
+        </MudItem>
+    </MudGrid>
+}

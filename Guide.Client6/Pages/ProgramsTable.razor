@@ -1,0 +1,47 @@
+﻿@using Guide.Shared.Models
+@using Guide.Client6.Services
+<!-- 112px = 64px for appbar + 24px for top margin + 24px for bottom margin -->
+@*<MudTable Items="@Programs" Height="calc(100vh - 112px)" Breakpoint="Breakpoint.Sm" Virtualize="true" FixedHeader="true" Striped="true">*@
+<div class="results-table">
+
+    <MudTable @ref="table"
+              Loading="Loading"
+              ServerData="@(new Func<TableState, Task<TableData<AcademicProgram>>>(FetchPrograms))"
+              T="AcademicProgram"
+              FixedFooter="true"
+              Virtualize="true"
+              Striped="true" Hover="true" SortLabel="Sort By">
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">النتائج</MudText>
+            <MudSpacer />
+            <MudTextField T=string Value="FilterService.Filters.SearchString"
+                          ValueChanged="@( v=> FilterService.ChangeFilters(f=> f.SearchString=v))"
+                          Placeholder="بحث" Adornment="Adornment.Start"
+                          AdornmentIcon="@Icons.Material.Filled.Search"
+                          IconSize="Size.Medium" Class="mt-0"></MudTextField>
+        </ToolBarContent>
+        <HeaderContent>
+            <MudTh><MudTableSortLabel T="AcademicProgram" SortLabel="name">الكلية</MudTableSortLabel></MudTh>
+            <MudTh><MudTableSortLabel T="AcademicProgram" SortLabel="university-name">الجامعة</MudTableSortLabel></MudTh>
+            <MudTh><MudTableSortLabel T="AcademicProgram" SortLabel="percentage">النسبة</MudTableSortLabel></MudTh>
+            <MudTh><MudTableSortLabel T="AcademicProgram" SortLabel="code">الرمز</MudTableSortLabel></MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="الكلية">@context.Name</MudTd>
+            <MudTd DataLabel="الجامعة">@context.University.Name</MudTd>
+            <MudTd DataLabel="النسبة">@(context.Percentage == 0 ? "-": context.Percentage)</MudTd>
+            <MudTd DataLabel="الرمز">@context.Code</MudTd>
+
+        </RowTemplate>
+        <LoadingContent>
+            <MudText>جاري البحث...</MudText>
+        </LoadingContent>
+        <PagerContent>
+            <MudTablePager RowsPerPageString="عدد البرامج في هذه الصفحة "
+                           PageSizeOptions="new int[]{10, 25, 50, 100}" />
+        </PagerContent>
+        <NoRecordsContent>
+            <MudText>لا توجد نتائج مطابقة</MudText>
+        </NoRecordsContent>
+    </MudTable>
+</div>

@@ -1,0 +1,130 @@
+﻿@page "/"
+
+<MudAppBar Color="Color.Transparent" Fixed="false" Elevation=0>
+    <a href="https://banan-it.sd/">
+        <img src="assets/banan logo.png" class="c-logo-size c-logo-size-for-mobile" />
+    </a>
+</MudAppBar>
+
+<MudGrid Justify=Justify.Center Spacing=0>
+
+    <MudItem Class="mt-16" xs=12>
+        <MudText Typo=Typo.h3 Align=Align.Center Style="@($"color: white")">
+            دليلك
+        </MudText>
+    </MudItem>
+
+    <MudItem Class="mt-2" xs=8>
+        <MudText Style="@($"color: white")" Align=Align.Center Typo=Typo.h6>
+            لحياة جامعية افضل يمكنك استخدام دليلك لايجاد الجامعات التي تتناسبك
+        </MudText>
+    </MudItem>
+
+    <MudItem xs=12 Class="mt-6">
+        <img src="assets/Index page BG - building.png" height="350px" class="mx-auto" style="display:block;" />
+    </MudItem>
+
+    <MudItem xs=10 Class="mt-6">
+        <MudGrid Class="mt-8" Justify=Justify.Center>
+
+            <MudItem xs="12" sm="8" md="4">
+                <MudCard Elevation="25" Class="rounded-lg pb-4">
+                    <MudCardHeader>
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.h6">
+                                <img src="assets/sudan flag.png" height="20px" />
+                                لحملة الشهادة السودانية
+                            </MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudText Typo=Typo.body1 Style="@($"color: {Colors.Grey.Darken1}")">
+                            لحاملي الشهادة السودانية يمكنك التعرف على البرامج التي تتناسب مع درجتك ومسارك الأكاديمي
+                        </MudText>
+                    </MudCardContent>
+                    <a href="local">
+                        <MudCardActions Class="d-flex justify-center">
+                            <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">
+                                ابدأ البحث
+                                <MudIcon Icon=@Icons.Material.Filled.Search Style="@("color: white")"></MudIcon>
+                            </MudButton>
+                        </MudCardActions>
+                    </a>
+                </MudCard>
+            </MudItem>
+
+            <MudItem xs="12" sm="8" md="4">
+                <MudCard Elevation="25" Class="rounded-lg pb-4">
+                    <MudCardHeader>
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.h6">
+                                <MudIcon Icon=@Icons.Material.Filled.LocalAirport Color=Color.Primary></MudIcon>
+                                لحملة الشهادة الأجنبية
+                            </MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudText Typo=Typo.body1 Style="@($"color: {Colors.Grey.Darken1}")">
+                            اذا كنت من حاملي الشهادة الاجنبية يمكنك معادلة شهادتك والتعرف على البرامج التي تطابق شهادتك
+                        </MudText>
+                    </MudCardContent>
+                    <a href="foreign">
+                        <MudCardActions Class="d-flex justify-center">
+                            <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">
+                                ابدأ البحث
+                                <MudIcon Icon=@Icons.Material.Filled.Search Style="@("color: white")"></MudIcon>
+                            </MudButton>
+                        </MudCardActions>
+                    </a>
+                </MudCard>
+            </MudItem>
+
+            <MudItem xs="12" sm="8" md="4">
+                <MudCard Elevation="25" Class="rounded-lg pb-4">
+                    <MudCardHeader>
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.h6">
+                                <MudIcon Icon=@Icons.Material.Filled.People Color=Color.Primary></MudIcon>
+                                لأي شخص
+                            </MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudText Typo=Typo.body1 Style="@($"color: {Colors.Grey.Darken1}")">
+                            اذا كنت تريد التعرف على بوابتنا يمكنك استكشاف جميع البرامج الجامعية وتصفيتها وفقا  لرغباتك
+                        </MudText>
+                    </MudCardContent>
+                    <a href="results">
+                        <MudCardActions Class="d-flex justify-center">
+                            <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" Style="width:50%;">
+                                ابدأ البحث
+                                <MudIcon Icon=@Icons.Material.Filled.Search Style="@("color: white")"></MudIcon>
+                            </MudButton>
+                        </MudCardActions>
+                    </a>
+                </MudCard>
+            </MudItem>
+
+        </MudGrid>
+    </MudItem>
+
+    <MudItem xs=12 Class="mt-16">
+        <div class="d-flex justify-center">
+            <MudIconButton Icon=@Icons.Custom.Brands.LinkedIn Style="@("color: white;")"></MudIconButton>
+            <MudIconButton Icon=@Icons.Custom.Brands.Facebook Style="@("color: white;")"></MudIconButton>
+            <MudIconButton Icon=@Icons.Custom.Brands.Twitter Style="@("color: white;")"></MudIconButton>
+        </div>
+    </MudItem>
+
+
+    <MudItem xs=12 Class="mt-2 mb-2">
+        <MudText Align=Align.Center Style="@("color: white;")">
+            لمزيد من المعلومات قم بزيارة موقع الوزارة
+        </MudText>
+        <MudText Align=Align.Center Style="@("color: white;")">
+            <a href="http://daleel.admission.gov.sd/" style="color: purple;" target="_blank">
+                http://daleel.admission.gov.sd
+            </a>
+        </MudText>
+    </MudItem>
+</MudGrid>

@@ -1,0 +1,44 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+*{
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+body {
+    background-image: url("assets/BGz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #fbfbfb;
+}
+
+.c-loading-logo {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+}
+
+@media only screen and (max-width: 600px){
+    .c-logo-size-for-mobile{
+        height: auto;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .c-logo-size {
+        height: auto;
+        width: 15%;
+    }
+}
+
+
+

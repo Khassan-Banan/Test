@@ -1,0 +1,230 @@
+[
+  {
+    "Id": 0,
+    "Name": "اختار المؤسسة",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 111,
+    "Name": "جامعة الخرطــوم",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 113,
+    "Name": "جامعة  امدرمان الإسلامية",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 114,
+    "Name": "جامعة امدرمان الإسلامية -طالبات",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 115,
+    "Name": "جامعة السودان للعلوم والتكنولوجيا",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 117,
+    "Name": "جامعة الجزيرة",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 119,
+    "Name": "جامعة البطانة",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 121,
+    "Name": "جامعة القرآن الكريم والعلوم الاسلامية ",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 122,
+    "Name": "جامعة القرآن الكريم والعلوم الاسلامية - طالبات",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 123,
+    "Name": "جامعة القرآن الكريم وتأصيل العلوم ",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 124,
+    "Name": "جامعة القرآن الكريم وتأصيل العلوم- طالبات",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 125,
+    "Name": "جامعة النيلين",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 127,
+    "Name": "جامعة الزعيم الازهرى",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 129,
+    "Name": "جامعة بحرى",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 131,
+    "Name": "جامعة شندى",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 133,
+    "Name": "جامعة وادى النيل",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 135,
+    "Name": "جامعة دنقلا",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 139,
+    "Name": "جامعة البحر الاحمر",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 141,
+    "Name": "جامعة كسلا",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 143,
+    "Name": "جامعة القضارف",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 145,
+    "Name": "جامعة سنار",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 147,
+    "Name": "جامعة النيل الازرق",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 149,
+    "Name": "جامعة الامام المهدى",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 151,
+    "Name": "جامعة بخت الرضا",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 153,
+    "Name": "جامعة كردفان",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 155,
+    "Name": "جامعة الدلنج",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 157,
+    "Name": "جامعة غرب كردفان",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 159,
+    "Name": "جامعة السلام",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 161,
+    "Name": "جامعة الفاشر",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 163,
+    "Name": "جامعة نيالا",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 165,
+    "Name": "جامعة زالنجى",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 167,
+    "Name": "جامعة الجنينة",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 169,
+    "Name": "جامعة عبداللطيف الحمد التكنولوجية",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 171,
+    "Name": "جامعة الضعين",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 173,
+    "Name": "جامعــة السودان التقانية ",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 175,
+    "Name": "جامعة المناقل للعلوم والتكنولوجيا",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 177,
+    "Name": "جامعة شرق كردفان",
+    "Type": 0,
+    "Faculties": null
+  },
+  {
+    "Id": 179,
+    "Name": "الجامعة التكنولوجية ",
+    "Type": 0,
+    "Faculties": null
+  }
+]

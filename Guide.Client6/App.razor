@@ -1,0 +1,20 @@
+﻿@using Guide.Client6.Services
+@using Guide.Client6.Shared
+<Router AppAssembly="@typeof(Program).Assembly" PreferExactMatches="@true">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p>Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+
+@code {
+    
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+    }
+}

@@ -1,0 +1,72 @@
+﻿@using Guide.Shared.Models
+
+@if (!Loading)
+{
+
+    <MudGrid Spacing=0 Class="justify-center">
+
+        @if (Result == null)
+        {
+
+            <MudItem xs="12" Class="@Margin">
+                <MudSelect T="ExternalCertificate" Label="الشهادة" Variant="Variant.Outlined" OffsetY="true" Dense="true"
+                   Value=@ExternalCertificate
+                   ValueChanged="@CertificateChanged">
+                    @foreach (var certificate in EquivalencyService.Get().ExternalCertificates.Where(c => c.Id != SudaneseCertificateId))
+                    {
+                        <MudSelectItem Value="@certificate">
+                            @certificate.Name
+                        </MudSelectItem>
+                    }
+                </MudSelect>
+            </MudItem>
+
+            <MudItem xs="12" Class="@Margin">
+                <MudContainer>
+                    @foreach (var course in ExternalCertificate.ExternalCertificateCourses.Select(c => c.ExternalCourse)
+                   )
+                    {
+
+                        <ExternalCourseView CourseName="@(course.Name)"
+                               Certificate = "ExternalCertificate"
+                                StudentExternalCourse="@StudentExternalCourses.First(c=> c.ExternalCourseId == course.Id)"
+                              />
+                    }
+
+                </MudContainer>
+            </MudItem>
+        }
+        <MudItem Class="mx-4 my-6">
+
+            <MudButton OnClick="@Calculate" Variant="Variant.Filled" Color="@Color.Primary" DisableElevation>
+                @( Result != null ? "رجوع" : "معادلة")
+            </MudButton>
+        </MudItem>
+        @if (Result != null)
+        {
+            <MudItem Class="mx-4 my-6">
+                <MudPaper Class=" ma-2">
+                    <MudItem xs="12" Class="mx-4 my-6">
+                        <TrackResultView AcademicTrack=AcademicTrack.Scientific TrackResult=Result.TrackResults[AcademicTrack.Scientific] />
+                    </MudItem>
+                    <MudItem xs="12" Class="mx-4 my-6">
+                        <TrackResultView AcademicTrack=AcademicTrack.NonScientific TrackResult=Result.TrackResults[AcademicTrack.NonScientific] />
+                    </MudItem>
+                </MudPaper>
+            </MudItem>
+        }
+
+
+    </MudGrid>
+
+
+
+}
+else
+{
+    <MudGrid>
+        <MudItem Style="margin:auto">
+            <MudProgressCircular Class="mx" Color="Color.Primary" Indeterminate="true" />
+        </MudItem>
+    </MudGrid>
+}

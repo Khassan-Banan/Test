@@ -1,0 +1,27 @@
+﻿<MudAppBar Elevation="1">
+    <MudIconButton Icon="@Icons.Material.Outlined.FilterAlt" Color="Color.Inherit" Edge="Edge.Start" OnClick="@ToggleFiltersDrawer" />
+    <MudSpacer />
+    <MudIconButton Icon="@LeftDrawerIcon" Color="Color.Inherit" OnClick="@ToggleLeftDrawer" />
+</MudAppBar>
+
+<MudDrawer @bind-Open="@TopBarService.OpenRight" Elevation="1" Anchor=" Rtl ? Anchor.Right : Anchor.Left">
+    <MudDrawerHeader>
+        <MudText Typo=Typo.h4>
+            فلترة
+        </MudText>
+    </MudDrawerHeader>
+    <MudNavMenu>
+        <FiltersSection2 />
+    </MudNavMenu>
+</MudDrawer>
+
+<MudDrawer @bind-Open="@TopBarService.OpenLeft" Elevation="1" Anchor="Rtl ? Anchor.Left : Anchor.Right">
+    <MudDrawerHeader>
+        <MudText Typo=Typo.h4>
+            @LeftDrawerTitle
+        </MudText>
+    </MudDrawerHeader>
+    <MudNavMenu>
+        @LeftDrawerBody
+    </MudNavMenu>
+</MudDrawer>

@@ -1,0 +1,353 @@
+[
+  {
+    "Id": 1,
+    "Name": "جامعة شندى",
+    "Type": 1,
+    "Faculties": [
+      {
+        "Id": 1,
+        "Name": "كلية الهندسة و العمارة",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "131-6-581200",
+            "Name": "  الهندسة المدنية",
+            "Percentage": 67.7,
+            "PriceSDG": 50000,
+            "PriceUSD": 4000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 1
+          }
+        ],
+        "UniversityId": 1
+      },
+      {
+        "Id": 2,
+        "Name": "كلية الهندسة والعماره",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "521200-6-131",
+            "Name": "الهندسة الكهربائية والإلكترونية",
+            "Percentage": 67.3,
+            "PriceSDG": 50000,
+            "PriceUSD": 4000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 2
+          }
+        ],
+        "UniversityId": 1
+      },
+      {
+        "Id": 3,
+        "Name": "كلية الهندسة والعماره",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "131-6-581100 ",
+            "Name": "  هندسة العمارة",
+            "Percentage": 65.7,
+            "PriceSDG": 50000,
+            "PriceUSD": 4000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 3
+          }
+        ],
+        "UniversityId": 1
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "جامعة وادى النيل",
+    "Type": 1,
+    "Faculties": [
+      {
+        "Id": 2,
+        "Name": "كليـة الهندسة والتقنية",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "133-6-521200",
+            "Name": " هندسة كهربائية وإلكترونية",
+            "Percentage": 78.9,
+            "PriceSDG": 100000,
+            "PriceUSD": 3000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 2
+          },
+          {
+            "Id": 2,
+            "Code": "133-6-581200",
+            "Name": " الهندسة المدنية",
+            "Percentage": 76.6,
+            "PriceSDG": 100000,
+            "PriceUSD": 3000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 2
+          },
+          {
+            "Id": 3,
+            "Code": "133-6-521100",
+            "Name": "الهندسة الميكانيكية",
+            "Percentage": 76,
+            "PriceSDG": 100000,
+            "PriceUSD": 3000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 2
+          },
+          {
+            "Id": 4,
+            "Code": "133-6-521101",
+            "Name": "  هندسة التصنيع",
+            "Percentage": 70.9,
+            "PriceSDG": 100000,
+            "PriceUSD": 3000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 2
+          }
+        ],
+        "UniversityId": 2
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "جامعة دنقلا",
+    "Type": 1,
+    "Faculties": [
+      {
+        "Id": 4,
+        "Name": "كلية الهندسة ",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "135-6-581200",
+            "Name": " قسم المدنية - الدبه",
+            "Percentage": 70.6,
+            "PriceSDG": 150000,
+            "PriceUSD": 2000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 4
+          }
+        ],
+        "UniversityId": 3
+      },
+      {
+        "Id": 5,
+        "Name": "كليـة العلوم الزراعية ",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "135-6-621100",
+            "Name": "كليـة العلوم الزراعية - الهندسة الزراعية - دنقلا السليم",
+            "Percentage": 50,
+            "PriceSDG": 40000,
+            "PriceUSD": 1000,
+            "State": 14,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 5
+          }
+        ],
+        "UniversityId": 3
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "جامعة البحر الاحمر",
+    "Type": 1,
+    "Faculties": [
+      {
+        "Id": 6,
+        "Name": "كليـة الهندسة",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "139-6-521100",
+            "Name": "كليـة الهندسة - قسم المدنية",
+            "Percentage": 78.1,
+            "PriceSDG": 250000,
+            "PriceUSD": 5000,
+            "State": 15,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 6
+          },
+          {
+            "Id": 2,
+            "Code": "139-6-521200",
+            "Name": "كليـة الهندسة - قسم الكهربائية والإلكترونية",
+            "Percentage": 77,
+            "PriceSDG": 250000,
+            "PriceUSD": 5000,
+            "State": 15,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 6
+          },
+          {
+            "Id": 3,
+            "Code": "139-6-521100",
+            "Name": "كليـة الهندسة - قسم الميكانيكية",
+            "Percentage": 74.4,
+            "PriceSDG": 250000,
+            "PriceUSD": 5000,
+            "State": 15,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 6
+          },
+          {
+            "Id": 4,
+            "Code": "139-6-521101",
+            "Name": "كليـة الهندسة - قسم الكيميائية",
+            "Percentage": 73,
+            "PriceSDG": 250000,
+            "PriceUSD": 5000,
+            "State": 15,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 6
+          }
+        ],
+        "UniversityId": 4
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "جامعة عبداللطيف الحمد التكنولوجية",
+    "Type": 1,
+    "Faculties": [
+      {
+        "Id": 7,
+        "Name": "كليـة الهندسة",
+        "Programs": [
+          {
+            "Id": 1,
+            "Code": "139-6-521102",
+            "Name": "كلية الهندسة - الهندسة الكهربائية",
+            "Percentage": 73,
+            "PriceSDG": 150000,
+            "PriceUSD": 6000,
+            "State": 6,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 7
+          },
+          {
+            "Id": 2,
+            "Code": "139-6-521103",
+            "Name": "كلية الهندسة - الهندسة الميكانيكية",
+            "Percentage": 71.7,
+            "PriceSDG": 150000,
+            "PriceUSD": 6000,
+            "State": 6,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 7
+          },
+          {
+            "Id": 3,
+            "Code": "139-6-521104",
+            "Name": "كلية الهندسة - الهندسة المدنية",
+            "Percentage": 71.7,
+            "PriceSDG": 150000,
+            "PriceUSD": 6000,
+            "State": 6,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 7
+          },
+          {
+            "Id": 4,
+            "Code": "139-6-521105",
+            "Name": "كلية الهندسة -البكالريوس التقاني في الهندسة الكهربائية",
+            "Percentage": 67.7,
+            "PriceSDG": 150000,
+            "PriceUSD": 6000,
+            "State": 6,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 7
+          },
+          {
+            "Id": 5,
+            "Code": "139-6-521106",
+            "Name": "كلية الهندسة - الهندسة الصناعية",
+            "Percentage": 66.3,
+            "PriceSDG": 150000,
+            "PriceUSD": 6000,
+            "State": 6,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 7
+          },
+          {
+            "Id": 6,
+            "Code": "139-6-521107",
+            "Name": "كلية الهندسة - البكالريوس التقاني في الهندسة المدنية",
+            "Percentage": 66.1,
+            "PriceSDG": 150000,
+            "PriceUSD": 6000,
+            "State": 6,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 7
+          },
+          {
+            "Id": 7,
+            "Code": "139-6-521108",
+            "Name": "كلية الهندسة - البكالريوس التقاني في الهندسة الميكانيكية",
+            "Percentage": 65,
+            "PriceSDG": 150000,
+            "PriceUSD": 6000,
+            "State": 6,
+            "AcademicTrack": 1,
+            "Gender": 0,
+            "AcademicField": 0,
+            "FacultyId": 7
+          }
+        ],
+        "UniversityId": 5
+      }
+    ]
+  }
+]
